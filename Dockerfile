@@ -23,6 +23,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # Copy both Python scripts
 COPY natgas_daemon.py .
 COPY natural_gas_predictor_enhanced*.py ./
+COPY .env .
 
 # Create directories for logs & persistence
 RUN mkdir -p /app/logs /app/data
