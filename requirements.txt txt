@@ -1,0 +1,22 @@
+# ========================================
+# NatGas Predictor v18 — Full Requirements
+# ========================================
+
+# Core
+pandas>=2.1.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+scikit-learn>=1.3.0
+
+# Live price + cross-commodity
+yfinance>=0.2.40
+
+# ML accelerators (all optional but fully supported by the code)
+xgboost>=2.0.0
+lightgbm>=4.1.0
+arch>=6.2.0          # GARCH model
+optuna>=3.5.0        # hyperparameter tuning
+
+# For better performance / reproducibility (optional but recommended)
+psutil>=5.9.0
